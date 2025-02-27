@@ -1,4 +1,4 @@
-# TASS - Official PyTorch Implementation
+# TASS - Official Jittor Implementation
 ![](./thumbnail.jpg)
 
 ### [CVPR 2024] Task-Adaptive Saliency Guidance for Exemplar-free Class Incremental Learning
