@@ -24,12 +24,14 @@ Download the pre-trained checkpoints on CIFAR-100:
 
 ## Performance Comparison
 
-Taking CIFAR-100 dataset as an example:
+Taking the 5-phase setting in CIFAR-100 dataset as an example:
 
-| Framework | Memory Usage | Inference Speed | Training Speed | Model Performance |
+| Framework | GPU Memory Usage (GB) | Inference Speed (FPS) | Training Speed (FPS) | Model Performance |
 |-----------|-------------|----------------|---------------|------------------|
-| PyTorch   |             |                |               |                  |
-| Jittor    |             |                |               |                  |
+| PyTorch   |     16.2        |        2617        |       360        |        61.5          |
+| Jittor    |      14.5       |       3389         |     426          |       62.1           |
+
+Training and Inference speed is tested with 32x32 size. Model Peformance denotes the top-1 accuracy of all classes in the last task.
 
 ## Citation
 If you use this code for your research, please consider citing:
