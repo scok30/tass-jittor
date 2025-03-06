@@ -22,6 +22,15 @@ Download the pre-trained checkpoints on CIFAR-100:
 - [10-phase Model](https://drive.google.com/file/d/1inlZQpjlDSNTmTVSVF_3kkLSp11vEOcM/view?usp=drive_link)
 - [20-phase Model](https://drive.google.com/file/d/1ZRIj_X0DqnLNdcuZ9FvN8CQEm6AYHVEp/view?usp=drive_link)
 
+## Performance Comparison
+
+Taking CIFAR-100 dataset as an example:
+
+| Framework | Memory Usage | Inference Speed | Training Speed | Model Performance |
+|-----------|-------------|----------------|---------------|------------------|
+| PyTorch   |             |                |               |                  |
+| Jittor    |             |                |               |                  |
+
 ## Citation
 If you use this code for your research, please consider citing:
 ```bibtex
